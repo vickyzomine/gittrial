@@ -11,6 +11,7 @@ Action()
 	lr_start_transaction("Retrieve_Results");
 	truclient_step("3", "Press key Enter on Search combobox", "snapshot=Action_3.inf");
 	lr_end_transaction("Retrieve_Results",0);
+	lr_end_transaction("Retrieve_Results",0);
 
 	return 0;
 }
